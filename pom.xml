@@ -99,7 +99,7 @@
                     <appName>git-deplo</appName>
                     <processTypes>
                         <!-- Tell Heroku how to launch your application -->
-                        <web>java -jar ./target/git-deplo-1.0-jar-with-dependencies.jar</web>
+                        <web>java -jar ./target/web: java -jar ./target/my-heroku-1.0-SNAPSHOT-jar-with-dependencies.jar</web>
                     </processTypes>
                 </configuration>
             </plugin>
